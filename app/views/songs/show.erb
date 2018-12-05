@@ -1,4 +1,5 @@
-<%binding.pry%>
+<%#binding.pry%>
 <h2>Name:<%=@song.name%></h2>
-<h2>Artist:<%=@song.artist%><a href="/artists/<%=@song.artist.slug%>"></h2>
-<h2>Genre:<%=@song.genre%></h2>
+<h2>Artist:<a href="/artists/<%=@song.artist.slug%>"><%=@song.artist.name%></h2>
+<h2>Genres:</h2>
+<%=@song.song_genres%>
