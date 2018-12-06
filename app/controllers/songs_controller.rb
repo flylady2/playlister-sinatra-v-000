@@ -14,7 +14,11 @@ class SongsController < ApplicationController
     #binding.pry
     erb :'/songs/show'
   end
-  
+
+
+
+
+
 
 
 
